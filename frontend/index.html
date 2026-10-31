@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>DZ Respect RolePlay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">DZ <span>RESPECT</span></div>
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">عن المدينة</a>
+    <a href="#rules">القوانين</a>
+    <a href="#dashboard">لوحة اللاعب</a>
+  </nav>
+  <button id="loginBtn" class="login-btn">دخول Discord</button>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="tag">WELCOME TO OUR CITY</p>
+      <h1>DZ RESPECT <span>ROLEPLAY</span></h1>
+      <p>عِش تجربة حياة واقعية، اصنع قصتك، وكن جزءاً من مجتمعنا.</p>
+      <a href="#about" class="main-btn">اكتشف المدينة</a>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <section id="about" class="section">
+    <p class="tag">ABOUT US</p>
+    <h2>عن المدينة</h2>
+    <p>مرحباً بك في DZ Respect RolePlay، مدينة تجمع اللاعبين في عالم مليء بالتحديات والفرص. اختر طريقك، كوّن علاقاتك، وابنِ مستقبلك داخل المدينة.</p>
+  </section>
+
+  <section id="rules" class="section">
+    <p class="tag">SERVER RULES</p>
+    <h2>قوانين المدينة</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>احترام الجميع</h3>
+        <p>احترم جميع اللاعبين والإدارة داخل وخارج اللعبة.</p>
+      </article>
+      <article class="card">
+        <h3>RolePlay</h3>
+        <p>التزم بتقمص الشخصية ولا تفسد تجربة الآخرين.</p>
+      </article>
+      <article class="card">
+        <h3>اللعب النزيه</h3>
+        <p>ممنوع الغش واستغلال الثغرات.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="dashboard" class="section dashboard">
+    <p class="tag">PLAYER PANEL</p>
+    <h2>لوحة اللاعب</h2>
+    <p>سجّل الدخول عبر Discord لربط حسابك ومتابعة معلومات شخصيتك وطلبات Whitelist.</p>
+    <button id="dashboardLogin" class="main-btn">الدخول إلى لوحة اللاعب</button>
+    <div id="playerInfo"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="logo">DZ <span>RESPECT</span></div>
+  <p>© 2026 DZ Respect RolePlay. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
